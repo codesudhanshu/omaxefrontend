@@ -46,13 +46,13 @@ clip-path: polygon(0 0, 100% 0, 100% 95%, 10% 100%, 0 100%);
 }
 .paragraph-div1{
     padding: 2em 0 2em 2em;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: gray;
     text-align: justify;
 }
 .paragraph-div2{
     padding: 2em 2em 2em 0;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: gray;
     text-align: justify;
 }
@@ -113,7 +113,7 @@ transition: 1s;
 }
 
 .list{
- font-size: 1.5em;
+ font-size: 1em;
  color: black;
 }
 
