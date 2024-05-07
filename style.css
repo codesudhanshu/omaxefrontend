@@ -408,4 +408,11 @@ transition: 1s;
     .form-heading{
         font-size: 1em;
     }
+    .contact{
+        margin: 1em;
+        width: 17em;
+        height: 3em;
+        padding: 1em;
+    }
+    
 }
