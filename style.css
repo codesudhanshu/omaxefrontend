@@ -388,13 +388,13 @@ transition: 1s;
     }
     .paragraph-div1{
         padding: .5em 0;
-        font-size: 1.3em;
+        font-size: 1em;
         color: gray;
         text-align: justify;
     }
     .paragraph-div2{
         padding: .5em 0;
-        font-size: 1.3em;
+        font-size: 1em;
         color: gray;
         text-align: justify;
     }
@@ -414,5 +414,9 @@ transition: 1s;
         height: 3em;
         padding: 1em;
     }
+    .list{
+     font-size: 1em;
+     color: black;
+}
     
 }
