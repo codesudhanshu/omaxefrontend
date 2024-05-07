@@ -380,6 +380,32 @@ transition: 1s;
 }
 
 /* CONTACT CSS SATRT  */
+}
 
-
+@media only screen and (max-width: 700px) {
+    #about{
+        margin: 5em 2em;
+    }
+    .paragraph-div1{
+        padding: .5em 0;
+        font-size: 1.3em;
+        color: gray;
+        text-align: justify;
+    }
+    .paragraph-div2{
+        padding: .5em 0;
+        font-size: 1.3em;
+        color: gray;
+        text-align: justify;
+    }
+    .parent-about{
+        display: block;
+        padding: 3em 1em;
+    }
+    .images-div{
+        margin: 2em;
+    }
+    .form-heading{
+        font-size: 1em;
+    }
 }
