@@ -86,7 +86,7 @@ $('#contactForm').submit(function (event) {
     // Send POST request to the server
     $.ajax({
         type: 'POST',
-        url: 'http://localhost:8080/data', // Your server endpoint
+        url: 'https://omaxebackend.onrender.com/data', // Your server endpoint
         data: JSON.stringify(formData),
         contentType: 'application/json',
         success: function (response) {
