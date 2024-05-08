@@ -309,7 +309,7 @@ Requesting2.addEventListener('click',()=>{
     document.body.style.opacity = '0.6';
 })
 
-const inter = setInterval(()=>{
+setInterval(()=>{
     popupData.style.display = 'flex'
 },10000)
 
@@ -341,7 +341,6 @@ var main = document.querySelector('#main')
                 success: function (response) {
                     console.log('Server response:', response);
                     popupData.style.display = 'none'
-                    clearInterval(inter)
                     alert('Will Shortly get back to you.')
                     document.body.style.opacity = '1';  
 
